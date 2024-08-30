@@ -4,14 +4,14 @@
             "broadcast_code": "3WEDH7600103311",
             "enable_connect": true,
             "enable_fan": true,
-            "return_mode": 1,
+            "return_mode": 0,
             "coordinate": 0,
             "imu_rate": 1,
             "extrinsic_parameter_source": 1
         },
         {
-            "broadcast_code": "0TFDG3U99101431",
-            "enable_connect": false,
+            "broadcast_code": "3WEDH7600104801",
+            "enable_connect": true,
             "enable_fan": true,
             "return_mode": 0,
             "coordinate": 0,

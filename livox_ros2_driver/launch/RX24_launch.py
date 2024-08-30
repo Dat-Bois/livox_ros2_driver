@@ -6,9 +6,9 @@ import launch
 
 ################### user configure parameters for ros2 start ###################
 xfer_format   = 0    # 0-Pointcloud2(sensor_msgs/PointCloud2.msg), 1-customized pointcloud format
-multi_topic   = 1    # 0-All LiDARs share the same topic, 1-One LiDAR one topic
+multi_topic   = 0    # 0-All LiDARs share the same topic, 1-One LiDAR one topic
 data_src      = 0    # 0-lidar,1-hub
-publish_freq  = 60.0 # freqency of publish,1.0,2.0,5.0,10.0,etc
+publish_freq  = 30.0 # freqency of publish,1.0,2.0,5.0,10.0,etc
 output_type   = 0
 frame_id      = 'livox_frame'
 lvx_file_path = '/home/livox/livox_test.lvx'
